@@ -1,16 +1,10 @@
 export const Bio = {
   name: "Mahmaduvesh Khalifa",
-  roles: [
-    "Full Stack Developer",
-    "Wordpress Developer",
-    "UI/UX Designer",
-    "Programmer",
-  ],
+  roles: ["Full Stack Developer", "Wordpress Developer", "Programmer"],
   description:
     "I'm a motivated, versatile individual who is always eager to take on new responsibilities. I'm very committed to delivering work of the highest quality, and I enjoy learning new things. Because I have a positive outlook and a growth mindset, I am ready to make a meaningful contribution and achieve big things.",
   github: "https://github.com/mahmaduvesh",
-  resume:
-    "https://drive.google.com/file/d/1ffZrcMcn8UatXGIaautbbqpV7ADNaETA/view?usp=sharing",
+  resume: "#",
   linkedin: "https://www.linkedin.com/in/mahmaduvesh-khalifa-b48ba41a0/",
   twitter: "#",
   insta: "https://www.instagram.com/mr_uv_0311/",
@@ -66,19 +60,9 @@ export const skills = [
     title: "Backend",
     skills: [
       {
-        name: "Node Js",
-        image: "https://nodejs.org/static/images/logo.svg",
-      },
-      {
-        name: "Express Js",
+        name: "PHP",
         image:
-          "https://w7.pngwing.com/pngs/925/447/png-transparent-express-js-node-js-javascript-mongodb-node-js-text-trademark-logo.png",
-      },
-
-      {
-        name: "Python",
-        image:
-          "https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg",
+          "https://upload.wikimedia.org/wikipedia/commons/thumb/2/27/PHP-logo.svg/2560px-PHP-logo.svg.png",
       },
       {
         name: "MySQL",
@@ -89,6 +73,20 @@ export const skills = [
         name: "MongoDB",
         image:
           "https://raw.githubusercontent.com/devicons/devicon/master/icons/mongodb/mongodb-original-wordmark.svg",
+      },
+      {
+        name: "Node Js",
+        image: "https://nodejs.org/static/images/logo.svg",
+      },
+      {
+        name: "Express Js",
+        image:
+          "https://w7.pngwing.com/pngs/925/447/png-transparent-express-js-node-js-javascript-mongodb-node-js-text-trademark-logo.png",
+      },
+      {
+        name: "Python",
+        image:
+          "https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg",
       },
       {
         name: "Firebase",
@@ -210,31 +208,6 @@ export const education = [
 ];
 
 export const projects = [
-  // {
-  //   id: 0,
-  //   title: "Trackify",
-  //   date: "Jun 2023 - Jul 2023",
-  //   description:
-  //     "Trackify is a web application designed to streamline task management and enhance productivity in the workplace. It provides a user-friendly interface for employers to keep track of their employees' daily work activities and empowers employees to log their tasks efficiently. \nAdmin Credentials: # Email: testadmin@gmail.com #Password- 123@testadmin, Employee Credentials:	#Email: testemployee@gmail.com	#Password- 123@Testemployee",
-  //   image:
-  //     "https://user-images.githubusercontent.com/64485885/255202416-e1f89b04-2788-45b0-abc2-9dec616669e2.png",
-  //   tags: [
-  //     "Docker",
-  //     "AWS",
-  //     "DuckDNS",
-  //     "Eslint",
-  //     "Husky",
-  //     "CI/CD",
-  //     "React Js",
-  //     "MongoDb",
-  //     "Node Js",
-  //     "Express Js",
-  //     "Redux",
-  //   ],
-  //   category: "web app",
-  //   github: "",
-  //   webapp: "",
-  // },
   {
     id: 1,
     title: "Todo Web App",
@@ -264,6 +237,42 @@ export const projects = [
     // webapp: "https://github.com/rishavchanda/Quiz-Earn",
     github: "",
     webapp: "",
+  },
+  {
+    id: 3,
+    title: "Test Task By Knovator",
+    date: "2023",
+    description:
+      " It shows a form for the user to give a review.Form Includes two input ﬁelds,Title* ⇒ Title of the Review, Rating* ⇒ Rating for the Review and Description ⇒ Description of the Review.Form Includes two buttons.Submit ⇒ submit the review and clear the form & Reset ⇒ reset the review and clear the form. - Title* and Rating* are required ﬁelds.- When a user submits the review, the review should be added to the Reviews section.",
+    image: "https://i.ibb.co/N3xkLvT/1.png",
+    tags: ["HTML", "CSS", "Javascript", "Bootstrap", "React Js"],
+    category: "web app",
+    github: "https://github.com/Mahmaduvesh/Test-Task-By-Knovator",
+    webapp: "https://test-task-by-knovator.netlify.app/",
+  },
+  {
+    id: 4,
+    title: "CRUD Operation ReactJs",
+    date: "2022",
+    description:
+      "CRUD Operations: Combining these four actions—Create, Read, Update, and Delete—comprises the core of data management in React, providing the foundation for interactive and dynamic web applications",
+    image: "https://i.ibb.co/HrcSn52/1.png",
+    tags: ["HTML", "CSS", "Javascript", "Bootstrap", "React Js"],
+    category: "web app",
+    github: "https://github.com/Mahmaduvesh/crud-operation-reactJs",
+    webapp: "https://crud-operation-reactjs.netlify.app/",
+  },
+  {
+    id: 5,
+    title: "CRUD Operation ReactJs with DB Json",
+    date: "2022",
+    description:
+      "CRUD Operations: Combining these four actions—Create, Read, Update, and Delete—comprises the core of data management in React, providing the foundation for interactive and dynamic web applications",
+    image: "https://i.ibb.co/KsCwHpb/1.png",
+    tags: ["HTML", "CSS", "Javascript", "Bootstrap", "React Js", "JSON API"],
+    category: "web app",
+    github: "https://github.com/Mahmaduvesh/crud-reactjs-json-api",
+    webapp: "https://crud-reactjs-json-api.netlify.app/",
   },
 ];
 
