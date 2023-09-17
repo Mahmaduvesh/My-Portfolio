@@ -274,6 +274,17 @@ export const projects = [
     github: "https://github.com/Mahmaduvesh/crud-reactjs-json-api",
     webapp: "https://crud-reactjs-json-api.netlify.app/",
   },
+  {
+    id: 5,
+    title: "Restaruant Website",
+    date: "2023",
+    description: "My First Wordpress Project.",
+    image: "https://i.ibb.co/KsCwHpb/1.png",
+    tags: ["Wordpress"],
+    category: "web app",
+    github: "#",
+    webapp: "",
+  },
 ];
 
 export const TimeLineData = [
