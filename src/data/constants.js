@@ -340,6 +340,28 @@ export const projects = [
     github: "#",
     webapp: "#",
   },
+  {
+    id: 8,
+    title: "Training and Placement Management System",
+    date: "2023",
+    description:
+      "The training and placement management system provides information on placement providers and the placements they offer so that students may view and assess their opportunities. It will have well-developed web sites to inform their students of vacancies and how to prepare for their work-integrated learning experience.",
+    image: "https://i.ibb.co/6841SmN/T-P-M-Sys-1-new.png",
+    tags: [
+      "HTML",
+      "CSS",
+      "JavaScript",
+      "MUi",
+      "ReactJS",
+      "Redux",
+      "React Native",
+      "Node Js",
+      "Firebase",
+    ],
+    category: "web app",
+    github: "#",
+    webapp: "#",
+  },
 ];
 
 export const TimeLineData = [
