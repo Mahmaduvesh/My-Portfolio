@@ -362,6 +362,17 @@ export const projects = [
     github: "#",
     webapp: "#",
   },
+  {
+    id: 9,
+    title: "Chat App",
+    date: "2023",
+    description: "Chat App using the Reactjs and Scss style using.",
+    image: "",
+    tags: ["HTML", "CSS", "JavaScript", "SCSS", "ReactJS", "Firebase"],
+    category: "web app",
+    github: "#",
+    webapp: "#",
+  },
 ];
 
 export const TimeLineData = [
