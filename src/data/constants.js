@@ -35,6 +35,10 @@ export const skills = [
           "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/CSS3_logo_and_wordmark.svg/1452px-CSS3_logo_and_wordmark.svg.png",
       },
       {
+        name: "SCSS",
+        image: "https://www.seekpng.com/png/full/377-3772047_sass-logo.png",
+      },
+      {
         name: "JavaScript",
         image:
           "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/JavaScript-logo.png/800px-JavaScript-logo.png",
@@ -77,11 +81,6 @@ export const skills = [
       {
         name: "Node Js",
         image: "https://nodejs.org/static/images/logo.svg",
-      },
-      {
-        name: "Express Js",
-        image:
-          "https://w7.pngwing.com/pngs/925/447/png-transparent-express-js-node-js-javascript-mongodb-node-js-text-trademark-logo.png",
       },
       {
         name: "Python",
@@ -152,7 +151,7 @@ export const experiences = [
     role: "Software Developer Intern",
     company: "Qodors Technologies ",
     date: "January 2023 - June 2023",
-    desc: "Working on the frontend of the web application using ReactJS, Redux, and Material UI.",
+    desc: "Assisted senior developers in coding, testing, and debugging web applications.Worked on website maintenance tasks and updates.Gained practical experience in front-end and back-end development.",
     skills: [
       "ReactJS",
       "Redux",
@@ -341,34 +340,12 @@ export const projects = [
     webapp: "#",
   },
   {
-    id: 8,
-    title: "Training and Placement Management System",
-    date: "2023",
-    description:
-      "The training and placement management system provides information on placement providers and the placements they offer so that students may view and assess their opportunities. It will have well-developed web sites to inform their students of vacancies and how to prepare for their work-integrated learning experience.",
-    image: "https://i.ibb.co/6841SmN/T-P-M-Sys-1-new.png",
-    tags: [
-      "HTML",
-      "CSS",
-      "JavaScript",
-      "MUi",
-      "ReactJS",
-      "Redux",
-      "React Native",
-      "Node Js",
-      "Firebase",
-    ],
-    category: "web app",
-    github: "#",
-    webapp: "#",
-  },
-  {
     id: 9,
     title: "Chat App",
     date: "2023",
     description: "Chat App using the Reactjs and Scss style using.",
     image: "",
-    tags: ["HTML", "CSS", "JavaScript", "SCSS", "ReactJS", "Firebase"],
+    tags: ["HTML", "JavaScript", "SCSS", "ReactJS", "Firebase"],
     category: "web app",
     github: "#",
     webapp: "#",
