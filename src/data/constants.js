@@ -250,6 +250,30 @@ export const projects = [
   // },
   {
     id: 0,
+    title: "New Spark Ecom",
+    date: "2024",
+    description:
+      "🛍️ Explore an eclectic mix of products for every facet of life! From sleek gadgets for your 🏠 home and 🍳 kitchen to stylish accessories for 👨‍🦰 men and 👩 women, and even innovative gear for 🚗 car and 🏍️ bike enthusiasts, our Shopify Live app offers a curated selection to elevate every aspect of your daily routine.",
+    image: "https://i.ibb.co/DMq2MWS/spark-Ecom-New.png",
+    tags: ["Shopify"],
+    category: "web app",
+    // github: "",
+    webapp: "https://1b2159-c5.myshopify.com/",
+  },
+  {
+    id: 1,
+    title: "BAKiiii",
+    date: "2024",
+    description:
+      "An HR Analytics dashboard offers real-time insights on department-wise attrition, employee age distribution, education field-specific attrition rates, gender-specific attrition rates across different age groups, job satisfaction ratings, and attrition breakdown by gender, empowering data-driven decisions to enhance workforce strategies and organizational performance.",
+    // image: "",
+    tags: ["Tableau"],
+    category: "web app",
+    // github: "",
+    // webapp:"",
+  },
+  {
+    id: 2,
     title: "HR Analytics Dashboard",
     date: "2024",
     description:
@@ -262,7 +286,7 @@ export const projects = [
       "https://public.tableau.com/app/profile/mahmaduvesh.khalifa/viz/HRANALYTICSDASHBOARD_17138705919430/HRAnalyticsDashboard",
   },
   {
-    id: 1,
+    id: 3,
     title: "Amazon Sales Project",
     date: "2024",
     description:
@@ -275,7 +299,7 @@ export const projects = [
       "https://public.tableau.com/shared/J7C6DP5WH?:display_count=n&:origin=viz_share_link",
   },
   {
-    id: 2,
+    id: 4,
     title: "Spark Ecom",
     date: "2023",
     description:
@@ -287,7 +311,7 @@ export const projects = [
     webapp: "https://d97a45.myshopify.com/",
   },
   {
-    id: 3,
+    id: 5,
     title: "Business Blog",
     date: "2023",
     description:
@@ -299,7 +323,7 @@ export const projects = [
     // webapp: "",
   },
   {
-    id: 4,
+    id: 6,
     title: "Chat App",
     date: "2023",
     description:
@@ -311,7 +335,7 @@ export const projects = [
     webapp: "https://reactjschatapps.netlify.app/",
   },
   {
-    id: 5,
+    id: 7,
     title: "Training and Placement Management System",
     date: "2023",
     description:
@@ -333,7 +357,7 @@ export const projects = [
     // webapp: "",
   },
   {
-    id: 6,
+    id: 8,
     title: "Intern Finder",
     date: "2023",
     description:
@@ -346,7 +370,7 @@ export const projects = [
     // github: "",
   },
   {
-    id: 7,
+    id: 9,
     title: "Test Task By Knovator",
     date: "2023",
     description:
@@ -358,7 +382,7 @@ export const projects = [
     webapp: "https://test-task-by-knovator.netlify.app/",
   },
   {
-    id: 8,
+    id: 10,
     title: "Faculty Feedback Management System",
     date: "2022",
     description:
@@ -371,7 +395,7 @@ export const projects = [
     // github: "",
   },
   {
-    id: 9,
+    id: 11,
     title: "CRUD Operation ReactJs",
     date: "2022",
     description:
@@ -383,7 +407,7 @@ export const projects = [
     webapp: "https://crud-operation-reactjs.netlify.app/",
   },
   {
-    id: 10,
+    id: 2,
     title: "CRUD Operation ReactJs with DB Json",
     date: "2022",
     description:
@@ -395,7 +419,7 @@ export const projects = [
     webapp: "https://crud-reactjs-json-api.netlify.app/",
   },
   {
-    id: 11,
+    id: 13,
     title: "Assignment App In College",
     date: "2022",
     description:
@@ -407,7 +431,7 @@ export const projects = [
     // webapp: "",
   },
   {
-    id: 12,
+    id: 14,
     title: "Restaurant Website",
     date: "2023",
     description:
@@ -419,7 +443,7 @@ export const projects = [
     webapp: "https://restaurantwp.netlify.app/",
   },
   {
-    id: 13,
+    id: 15,
     title: "Material Management System",
     date: "2022",
     description:
@@ -431,7 +455,7 @@ export const projects = [
     // webapp: "",
   },
   {
-    id: 14,
+    id: 16,
     title: "Student Management System",
     date: "2022",
     description:
