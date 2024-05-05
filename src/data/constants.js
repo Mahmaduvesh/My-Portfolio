@@ -1,12 +1,13 @@
 export const Bio = {
   name: "Mahmaduvesh Khalifa",
-  roles: ["Full Stack Developer", "Wordpress Developer", "Programmer"],
+  roles: ["Full Stack Developer", "Wordpress Developer", "Shopify Developer"],
   description:
     "I'm a motivated, versatile individual who is always eager to take on new responsibilities. I'm very committed to delivering work of the highest quality, and I enjoy learning new things. Because I have a positive outlook and a growth mindset, I am ready to make a meaningful contribution and achieve big things.",
   github: "https://github.com/mahmaduvesh",
-  resume: "#",
+  resume:
+    "https://drive.google.com/file/d/17azXCyDP-90NDTh0KGTgK5LRFZ4-MuiG/view?usp=sharing",
   linkedin: "https://www.linkedin.com/in/mahmaduvesh-khalifa-b48ba41a0/",
-  twitter: "#",
+  twitter: "https://twitter.com/Mahmaduvesh_k",
   insta: "https://www.instagram.com/mr_uv_0311/",
   facebook: "https://www.facebook.com/uvesh.khalifa.94",
 };
@@ -111,11 +112,11 @@ export const skills = [
   {
     title: "Others",
     skills: [
-      {
-        name: "Git",
-        image:
-          "https://camo.githubusercontent.com/fbfcb9e3dc648adc93bef37c718db16c52f617ad055a26de6dc3c21865c3321d/68747470733a2f2f7777772e766563746f726c6f676f2e7a6f6e652f6c6f676f732f6769742d73636d2f6769742d73636d2d69636f6e2e737667",
-      },
+      // {
+      //   name: "Git",
+      //   image:
+      //     "https://camo.githubusercontent.com/fbfcb9e3dc648adc93bef37c718db16c52f617ad055a26de6dc3c21865c3321d/68747470733a2f2f7777772e766563746f726c6f676f2e7a6f6e652f6c6f676f732f6769742d73636d2f6769742d73636d2d69636f6e2e737667",
+      // },
       {
         name: "GitHub",
         image: "https://www.svgrepo.com/show/475654/github-color.svg",
@@ -128,7 +129,7 @@ export const skills = [
       {
         name: "Postman",
         image:
-          "https://camo.githubusercontent.com/93b32389bf746009ca2370de7fe06c3b5146f4c99d99df65994f9ced0ba41685/68747470733a2f2f7777772e766563746f726c6f676f2e7a6f6e652f6c6f676f732f676574706f73746d616e2f676574706f73746d616e2d69636f6e2e737667",
+          "https://cdn.iconscout.com/icon/free/png-256/free-postman-3521648-2945092.png?f=webp",
       },
       {
         name: "Wordpress",
@@ -136,9 +137,33 @@ export const skills = [
           "https://upload.wikimedia.org/wikipedia/commons/9/93/Wordpress_Blue_logo.png",
       },
       {
+        name: "Shopify",
+        image: "https://i.ibb.co/BT7HJtk/shopify-icon.jpg",
+      },
+      {
         name: "Canva",
         image:
           "https://cdn-images-1.medium.com/v2/resize:fit:1200/format:png/1*A6kkoOVJVpXPWewg8axc5w.png",
+      },
+      {
+        name: "MS Word",
+        image:
+          "https://static-00.iconduck.com/assets.00/ms-word-icon-2048x2026-3u3jf850.png",
+      },
+      {
+        name: "Excel",
+        image:
+          "https://static-00.iconduck.com/assets.00/ms-excel-icon-2048x2026-nws24wyy.png",
+      },
+      {
+        name: "ChatGPT",
+        image:
+          "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRlEyYKHVM6GGoDT4C7p50szAm8SCEA3qA90JqxDOOsOKFp4fZSnLMgYymJJnRkIL0X8Xw&usqp=CAU",
+      },
+      {
+        name: "Tableau",
+        image:
+          " https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ4gqN4--FtGMR4sI71rQdnn_J9QHiij3BjkTp4O05-1IGNmdefFnr8KmXy5UMW0W4v15s&usqp=CAU",
       },
     ],
   },
@@ -162,6 +187,7 @@ export const experiences = [
       "CSS",
       "JavaScript",
       "MYSQL",
+      "WordPress",
     ],
     // doc: "https://firebasestorage.googleapis.com/v0/b/buckoid-917cf.appspot.com/o/Screenshot%20from%202023-05-28%2023-20-46.png?alt=media&token=5570f995-e8f4-4f12-bb2f-73bcf4b20730",
   },
@@ -207,118 +233,85 @@ export const education = [
 ];
 
 export const projects = [
+  // {
+  //   id: 1,
+  //   title: "Todo Web App",
+  //   date: "Jun 2021",
+  //   description:
+  //     " A Todo Web App made with React JS, Redux, and Material UI. It has a login page where users can log in with their Google account. It has a sidebar where users can see all the tasks and can create a new task. It has a calendar where users can see all the tasks on a particular date. It has a search bar where users can search for a particular task.",
+  //   image:
+  //     "https://camo.githubusercontent.com/a328255ad96f861f57d25096d28018ab2656c689a1456b0d145764009bed2d1a/68747470733a2f2f666972656261736573746f726167652e676f6f676c65617069732e636f6d2f76302f622f746f646f2d6170702d63386331392e61707073706f742e636f6d2f6f2f53637265656e73686f74253230283938292e706e673f616c743d6d6564696126746f6b656e3d33643335646366322d626666322d343730382d393031632d343232383866383332386633",
+  //   tags: ["React Js", "Local Storage", "AWS Auth", "Node JS"],
+  //   category: "web app",
+  //   // github: "https://github.com/rishavchanda/Todo-Web-App",
+  //   // webapp: "https://rishav-react-todo.netlify.app/",
+  //   github: "",
+  //   webapp: "",
+  // },
+  {
+    id: 0,
+    title: "HR Analytics Dashboard",
+    date: "2024",
+    description:
+      "An HR Analytics dashboard offers real-time insights on department-wise attrition, employee age distribution, education field-specific attrition rates, gender-specific attrition rates across different age groups, job satisfaction ratings, and attrition breakdown by gender, empowering data-driven decisions to enhance workforce strategies and organizational performance.",
+    image: "https://i.ibb.co/YcqL0s2/HR-Analytics-Dashboard.png",
+    tags: ["Tableau"],
+    category: "web app",
+    // github: "",
+    webapp:
+      "https://public.tableau.com/app/profile/mahmaduvesh.khalifa/viz/HRANALYTICSDASHBOARD_17138705919430/HRAnalyticsDashboard",
+  },
   {
     id: 1,
-    title: "Todo Web App",
-    date: "Jun 2021",
+    title: "Amazon Sales Project",
+    date: "2024",
     description:
-      " A Todo Web App made with React JS, Redux, and Material UI. It has a login page where users can log in with their Google account. It has a sidebar where users can see all the tasks and can create a new task. It has a calendar where users can see all the tasks on a particular date. It has a search bar where users can search for a particular task.",
-    image:
-      "https://camo.githubusercontent.com/a328255ad96f861f57d25096d28018ab2656c689a1456b0d145764009bed2d1a/68747470733a2f2f666972656261736573746f726167652e676f6f676c65617069732e636f6d2f76302f622f746f646f2d6170702d63386331392e61707073706f742e636f6d2f6f2f53637265656e73686f74253230283938292e706e673f616c743d6d6564696126746f6b656e3d33643335646366322d626666322d343730382d393031632d343232383866383332386633",
-    tags: ["React Js", "Local Storage", "AWS Auth", "Node JS"],
+      "An Amazon sales analytics dashboard provides comprehensive insights into sales performance across different product categories, identifies the top 10 most profitable products, and tracks sales and profit trends over time, enabling informed decision-making and strategic planning for maximizing revenue and profitability.",
+    image: "https://i.ibb.co/7N94X07/Dashboard-2.png",
+    tags: ["Tableau"],
     category: "web app",
-    // github: "https://github.com/rishavchanda/Todo-Web-App",
-    // webapp: "https://rishav-react-todo.netlify.app/",
-    github: "",
-    webapp: "",
+    // github: "",
+    webapp:
+      "https://public.tableau.com/shared/J7C6DP5WH?:display_count=n&:origin=viz_share_link",
   },
   {
     id: 2,
-    title: "Quiz App",
-    date: "Dec 2020 - Jan 2021",
+    title: "Spark Ecom",
+    date: "2023",
     description:
-      "A android quiz app made with Java and Firebase. It has a login page where users can log in with their Google account. It has a sidebar where users can see all the quiz categories and can create a new quiz. It has a leaderboard where users can see the top 10 scorers. It has a search bar where users can search for a particular quiz.",
-    image:
-      "https://github-production-user-asset-6210df.s3.amazonaws.com/64485885/239726262-c1b061d1-d9d0-42ef-9f1c-0412d14bc4f6.gif",
-    tags: ["Java", "Android Studio", "Firebase", "Google Auth"],
-    category: "android app",
-    // github: "https://github.com/rishavchanda/Quiz-Earn",
-    // webapp: "https://github.com/rishavchanda/Quiz-Earn",
+      "Discover the ultimate online shopping experience with our e-commerce website. Explore a vast array of products, enjoy a seamless browsing experience, and make secure transactions. Elevate your online shopping journey with our user-friendly interface and diverse product offerings.",
+    image: "https://i.ibb.co/qCP3VM3/Spark-Ecom.png",
+    tags: ["Shopify"],
+    category: "web app",
     github: "",
-    webapp: "",
+    webapp: "https://d97a45.myshopify.com/",
   },
   {
     id: 3,
-    title: "Test Task By Knovator",
+    title: "Business Blog",
     date: "2023",
     description:
-      " It shows a form for the user to give a review.Form Includes two input ﬁelds,Title* ⇒ Title of the Review, Rating* ⇒ Rating for the Review and Description ⇒ Description of the Review.Form Includes two buttons.Submit ⇒ submit the review and clear the form & Reset ⇒ reset the review and clear the form. - Title* and Rating* are required ﬁelds.- When a user submits the review, the review should be added to the Reviews section.",
-    image: "https://i.ibb.co/D8QKG1J/1-review.png",
-    tags: ["HTML", "CSS", "Javascript", "Bootstrap", "React Js"],
+      "Empower your business with a dynamic online presence using WordPress business blogs. Craft compelling content, showcase your products or services, and engage your audience effortlessly with customizable themes. Elevate your brand's narrative and drive success in the digital landscape with WordPress as your trusted blogging platform.",
+    image: "https://i.ibb.co/CnYYJBq/WpBlog.png",
+    tags: ["Wordpress", "Elementor", "Phlox Theme"],
     category: "web app",
-    github: "https://github.com/Mahmaduvesh/Test-Task-By-Knovator",
-    webapp: "https://test-task-by-knovator.netlify.app/",
+    // github: "",
+    // webapp: "",
   },
   {
     id: 4,
-    title: "CRUD Operation ReactJs",
-    date: "2022",
-    description:
-      "CRUD Operations: Combining these four actions—Create, Read, Update, and Delete—comprises the core of data management in React, providing the foundation for interactive and dynamic web applications",
-    image: "https://i.ibb.co/YDLcMpg/2-new-crud.png",
-    tags: ["HTML", "CSS", "Javascript", "Bootstrap", "React Js"],
-    category: "web app",
-    github: "https://github.com/Mahmaduvesh/crud-operation-reactJs",
-    webapp: "https://crud-operation-reactjs.netlify.app/",
-  },
-  {
-    id: 5,
-    title: "CRUD Operation ReactJs with DB Json",
-    date: "2022",
-    description:
-      "CRUD Operations: Combining these four actions—Create, Read, Update, and Delete—comprises the core of data management in React, providing the foundation for interactive and dynamic web applications",
-    image: "https://i.ibb.co/T2y8X7C/1-crud-emp.png",
-    tags: ["HTML", "CSS", "Javascript", "Bootstrap", "React Js", "JSON API"],
-    category: "web app",
-    github: "https://github.com/Mahmaduvesh/crud-reactjs-json-api",
-    webapp: "https://crud-reactjs-json-api.netlify.app/",
-  },
-  {
-    id: 5,
-    title: "Restaurant Website",
+    title: "Chat App",
     date: "2023",
     description:
-      "In this project, I will create a restaurant website with WordPress and a reservation form that stores submissions in the database.",
-    image: "https://i.ibb.co/JBVH2JY/1.png",
-    tags: ["Wordpress", "Elementor", "Envato Elements", "Ninja Forms"],
+      "This Chat app's front end utilized Reactjs, while the back end made use of Firebase and SCSS for styling purposes.",
+    image: "https://i.ibb.co/dKCBfg3/new-chat-app.png",
+    tags: ["HTML", "JavaScript", "SCSS", "ReactJS", "Firebase"],
     category: "web app",
-    github: "#",
-    webapp: "https://restaurantwp.netlify.app/",
+    github: "https://github.com/Mahmaduvesh/chat-app",
+    webapp: "https://reactjschatapps.netlify.app/",
   },
   {
-    id: 6,
-    title: "Material Management System",
-    date: "2022",
-    description:
-      "This project created in my bca last sem,In this create for student to get easy study materials.",
-    image: "https://i.ibb.co/f93FJYg/material-2.png",
-    tags: ["HTML", "CSS", "JavaScript", "Bootsrap", "PHP", "MYSQL"],
-    category: "web app",
-    github: "#",
-    webapp: "#",
-  },
-  {
-    id: 7,
-    title: "Student Management System",
-    date: "2022",
-    description:
-      "All students are having trouble finding a study on various types of topics. They have to visit lots of websites to gather information about their study needs. So, we created a better place to help them; now they can find all kinds of topics for their study material in one place, and they don’t have to suffer from various websites.",
-    image: "https://i.ibb.co/yX491Hk/Student-M-sys-1-new.png",
-    tags: [
-      "HTML",
-      "CSS",
-      "JavaScript",
-      "Bootsrap",
-      "ReactJS",
-      "Laravel",
-      "MYSQL",
-    ],
-    category: "web app",
-    github: "#",
-    webapp: "#",
-  },
-  {
-    id: 8,
+    id: 5,
     title: "Training and Placement Management System",
     date: "2023",
     description:
@@ -336,19 +329,126 @@ export const projects = [
       "Firebase",
     ],
     category: "web app",
-    github: "#",
-    webapp: "#",
+    // github: "",
+    // webapp: "",
+  },
+  {
+    id: 6,
+    title: "Intern Finder",
+    date: "2023",
+    description:
+      "A android Intern Finder app made with Java and Firebase. It has a login page where users can log in with their email & password. Now a day’s, student joins the college for better education as well as for better placement for their future. The placement activities play very important role in student career and building college reputation. In the current system all training and placement activities are done manually, there are more chances of error. ",
+    image: "https://i.ibb.co/tm6k1Lt/Intern-Finder.png",
+    tags: ["Java", "Android Studio", "Firebase"],
+    category: "android app",
+    // github: "https://github.com/rishavchanda/Quiz-Earn",
+    // webapp: "",
+    // github: "",
+  },
+  {
+    id: 7,
+    title: "Test Task By Knovator",
+    date: "2023",
+    description:
+      " It shows a form for the user to give a review.Form Includes two input ﬁelds,Title* ⇒ Title of the Review, Rating* ⇒ Rating for the Review and Description ⇒ Description of the Review.Form Includes two buttons.Submit ⇒ submit the review and clear the form & Reset ⇒ reset the review and clear the form. - Title* and Rating* are required ﬁelds.- When a user submits the review, the review should be added to the Reviews section.",
+    image: "https://i.ibb.co/D8QKG1J/1-review.png",
+    tags: ["HTML", "CSS", "Javascript", "Bootstrap", "React Js"],
+    category: "web app",
+    github: "https://github.com/Mahmaduvesh/Test-Task-By-Knovator",
+    webapp: "https://test-task-by-knovator.netlify.app/",
+  },
+  {
+    id: 8,
+    title: "Faculty Feedback Management System",
+    date: "2022",
+    description:
+      "A android Feedback app made with Java and Mysql. It has a login page where users can log in with their email & password. Student Can Give a Feedback To Faculty.",
+    image: "https://i.ibb.co/NY9Xqbs/Feedback-Sys.png",
+    tags: ["Java", "Android Studio", "Firebase", "MySQL"],
+    category: "android app",
+    // github: "https://github.com/rishavchanda/Quiz-Earn",
+    // webapp: "",
+    // github: "",
   },
   {
     id: 9,
-    title: "Chat App",
-    date: "2023",
-    description: "Chat App using the Reactjs and Scss style using.",
-    image: "",
-    tags: ["HTML", "JavaScript", "SCSS", "ReactJS", "Firebase"],
+    title: "CRUD Operation ReactJs",
+    date: "2022",
+    description:
+      "CRUD Operations: Combining these four actions—Create, Read, Update, and Delete—comprises the core of data management in React, providing the foundation for interactive and dynamic web applications",
+    image: "https://i.ibb.co/YDLcMpg/2-new-crud.png",
+    tags: ["HTML", "CSS", "Javascript", "Bootstrap", "React Js"],
     category: "web app",
-    github: "#",
-    webapp: "#",
+    github: "https://github.com/Mahmaduvesh/crud-operation-reactJs",
+    webapp: "https://crud-operation-reactjs.netlify.app/",
+  },
+  {
+    id: 10,
+    title: "CRUD Operation ReactJs with DB Json",
+    date: "2022",
+    description:
+      "CRUD Operations: Combining these four actions—Create, Read, Update, and Delete—comprises the core of data management in React, providing the foundation for interactive and dynamic web applications",
+    image: "https://i.ibb.co/T2y8X7C/1-crud-emp.png",
+    tags: ["HTML", "CSS", "Javascript", "Bootstrap", "React Js", "JSON API"],
+    category: "web app",
+    github: "https://github.com/Mahmaduvesh/crud-reactjs-json-api",
+    webapp: "https://crud-reactjs-json-api.netlify.app/",
+  },
+  {
+    id: 11,
+    title: "Assignment App In College",
+    date: "2022",
+    description:
+      "A android Assignment app made with Java. In show the different quetion and answer.",
+    image: "https://i.ibb.co/thBLwgp/Ass-1.png",
+    tags: ["Java", "Android Studio"],
+    category: "android app",
+    // github: "",
+    // webapp: "",
+  },
+  {
+    id: 12,
+    title: "Restaurant Website",
+    date: "2023",
+    description:
+      "In this project, I will create a restaurant website with WordPress and a reservation form that stores submissions in the database.",
+    image: "https://i.ibb.co/dKytqzX/new-cafe.png",
+    tags: ["Wordpress", "Elementor", "Envato Elements", "Ninja Forms"],
+    category: "web app",
+    // github: "",
+    webapp: "https://restaurantwp.netlify.app/",
+  },
+  {
+    id: 13,
+    title: "Material Management System",
+    date: "2022",
+    description:
+      "This project created in my bca last sem,In this create for student to get easy study materials.",
+    image: "https://i.ibb.co/f93FJYg/material-2.png",
+    tags: ["HTML", "CSS", "JavaScript", "Bootsrap", "PHP", "MYSQL"],
+    category: "web app",
+    // github: "",
+    // webapp: "",
+  },
+  {
+    id: 14,
+    title: "Student Management System",
+    date: "2022",
+    description:
+      "All students are having trouble finding a study on various types of topics. They have to visit lots of websites to gather information about their study needs. So, we created a better place to help them; now they can find all kinds of topics for their study material in one place, and they don’t have to suffer from various websites.",
+    image: "https://i.ibb.co/yX491Hk/Student-M-sys-1-new.png",
+    tags: [
+      "HTML",
+      "CSS",
+      "JavaScript",
+      "Bootsrap",
+      "ReactJS",
+      "Laravel",
+      "MYSQL",
+    ],
+    category: "web app",
+    // github: "",
+    // webapp: "",
   },
 ];
 
