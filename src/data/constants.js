@@ -1,9 +1,16 @@
 export const Bio = {
   name: "Mahmaduvesh Khalifa",
-  roles: ["Full Stack Developer", "Wordpress Developer", "Shopify Developer"],
+  roles: [
+    "MERN Stack Developer",
+    "Web Developer",
+    "Wordpress Developer",
+    "Shopify Developer",
+  ],
   description:
-    "I'm a motivated, versatile individual who is always eager to take on new responsibilities. I'm very committed to delivering work of the highest quality, and I enjoy learning new things. Because I have a positive outlook and a growth mindset, I am ready to make a meaningful contribution and achieve big things.",
+    "I'm very committed to delivering work of the highest quality, and I enjoy learning new things. Because I have a positive outlook and a growth mindset, I am ready to make a meaningful contribution and achieve big things.",
+  // "I'm a motivated, versatile individual who is always eager to take on new responsibilities. I'm very committed to delivering work of the highest quality, and I enjoy learning new things. Because I have a positive outlook and a growth mindset, I am ready to make a meaningful contribution and achieve big things.",
   github: "https://github.com/mahmaduvesh",
+  linkdin: "https://www.linkedin.com/in/mahmaduvesh-khalifa-b48ba41a0/",
   resume:
     "https://drive.google.com/file/d/17azXCyDP-90NDTh0KGTgK5LRFZ4-MuiG/view?usp=sharing",
   linkedin: "https://www.linkedin.com/in/mahmaduvesh-khalifa-b48ba41a0/",
@@ -172,6 +179,24 @@ export const skills = [
 export const experiences = [
   {
     id: 0,
+    img: "data:image/png;base64,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",
+    role: "Web Developer Intern",
+    company: "Unified Mentor",
+    date: "May 2024 - July 2024",
+    desc: "Collaborated within crossfunctional teams to design and deploy new RESTful APIs, increasing system reliability by 30% and reducing data retrieval times by 50%, thereby improving user experience.",
+    skills: [
+      "HTML",
+      "CSS",
+      "JavaScript",
+      "MYSQL",
+      "NodeJs",
+      "Bootstrap",
+      "Mui",
+    ],
+    // doc: "https://firebasestorage.googleapis.com/v0/b/buckoid-917cf.appspot.com/o/Screenshot%20from%202023-05-28%2023-20-46.png?alt=media&token=5570f995-e8f4-4f12-bb2f-73bcf4b20730",
+  },
+  {
+    id: 1,
     img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRMMQio7jnX1yGI_Kwpw5P1UYGMCBDqgxVJlHX8OdT2tA&s",
     role: "Software Developer Intern",
     company: "Qodors Technologies ",
@@ -214,7 +239,7 @@ export const education = [
   },
   {
     id: 2,
-    img: "https://bingo.icbse.com/business.jpg?action=logo&id=n5q896",
+    img: "https://bingo.icbse.com/v1/business.jpg?action=logo&id=n5q896",
     school: "Shree M. N. Vidhyalay",
     date: "MARCH 2018",
     grade: "62%",
@@ -223,7 +248,7 @@ export const education = [
   },
   {
     id: 3,
-    img: "https://bingo.icbse.com/business.jpg?action=logo&id=n5q896",
+    img: "https://bingo.icbse.com/v1/business.jpg?action=logo&id=n5q896",
     school: "Shree M. N. Vidhyalay",
     date: "MARCH 2016",
     grade: "59.83%",
@@ -260,18 +285,18 @@ export const projects = [
     // github: "",
     webapp: "https://1b2159-c5.myshopify.com/",
   },
-  {
-    id: 1,
-    title: "BAKiiii",
-    date: "2024",
-    description:
-      "An HR Analytics dashboard offers real-time insights on department-wise attrition, employee age distribution, education field-specific attrition rates, gender-specific attrition rates across different age groups, job satisfaction ratings, and attrition breakdown by gender, empowering data-driven decisions to enhance workforce strategies and organizational performance.",
-    // image: "",
-    tags: ["Tableau"],
-    category: "web app",
-    // github: "",
-    // webapp:"",
-  },
+  // {
+  //   id: 1,
+  //   title: "BAKiiii",
+  //   date: "2024",
+  //   description:
+  //     "An HR Analytics dashboard offers real-time insights on department-wise attrition, employee age distribution, education field-specific attrition rates, gender-specific attrition rates across different age groups, job satisfaction ratings, and attrition breakdown by gender, empowering data-driven decisions to enhance workforce strategies and organizational performance.",
+  //   // image: "",
+  //   tags: ["Tableau"],
+  //   category: "web app",
+  //   // github: "",
+  //   // webapp:"",
+  // },
   {
     id: 2,
     title: "HR Analytics Dashboard",
